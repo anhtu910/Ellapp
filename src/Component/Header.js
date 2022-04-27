@@ -27,7 +27,7 @@ export default function Header() {
                         <p>Phone: +84 862 860 223</p>
                         <NavLink exac="true" to="Store">Store</NavLink>
                         <NavLink exac="true" to ="2">About</NavLink>
-                        <NavLink exac="true" to="3">Conyact</NavLink>
+                        <NavLink exac="true" to="3">Contact</NavLink>
               
 
                     </div>

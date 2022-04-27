@@ -31,7 +31,8 @@
     letter-spacing: 1.2px;
     text-align: center;
     color: #d3b673;
-    font-family: "BalooExtra", Helvetica, Arial, sans-serif !important;
+    font-family:cursive;
+    margin-bottom: 20px;
 }
 .Default_subtit{
    
@@ -42,5 +43,6 @@
     line-height: 1;
     margin-bottom: 35px;
     text-transform: uppercase;
-    font-family: "BalooExtra", Helvetica, Arial, sans-serif !important;
+    font-family:cursive;
+    
 }
