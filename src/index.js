@@ -3,11 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Routes,Route,BrowserRouter as Router } from 'react-router-dom';
+import Store from 'Component/Store';
+import Defaultindex from 'Component/Default';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+
+    
+    <Routes>
+   <Route  path='/' element={<App/>}>
+   <Route  index element={<Defaultindex/>}></Route>
+    <Route  path='Store' element={<Store/>}></Route>
+    <Route  path='2' element={<Store/>}></Route>
+    <Route  path='3' element={<Store/>}></Route>
+
+   </Route>
+   </Routes>
+    </Router>
+    
   </React.StrictMode>
 );
 

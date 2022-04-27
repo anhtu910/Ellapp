@@ -1,0 +1,46 @@
+.Default{
+
+    background-image:url(https://tocotocotea.com/wp-content/uploads/2021/12/about-banner-main.png);
+   
+   background-color: #cccccc;
+    height: 730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+  
+}
+.Default_container{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 100%;
+}
+.Default_content{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+   
+    top:50%;
+    transform: translateY(-50%);
+}
+.Default_tit{
+   
+    font-size: 46px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #d3b673;
+    font-family: "BalooExtra", Helvetica, Arial, sans-serif !important;
+}
+.Default_subtit{
+   
+    font-size: 54px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2.7px;
+    line-height: 1;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-family: "BalooExtra", Helvetica, Arial, sans-serif !important;
+}
