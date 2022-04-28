@@ -1,4 +1,4 @@
-*{ 
+*{
   margin: 0;
   padding: 0;
   border: 0;
@@ -8,20 +8,11 @@ body::-webkit-scrollbar {
   width: 0 !important;
   display: none; 
 }
-body{
+ body{
+  max-width: 1920px !important;
 
-    background-image:url(https://tocotocotea.com/wp-content/uploads/2021/12/slideshow1_2.jpg);
   
-   
-   background-color: #cccccc;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: 0;
-  
-}
+} 
 .container{
   /* max-width: 1000px;
   margin: 0 auto; */
