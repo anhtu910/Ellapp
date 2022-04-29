@@ -8,12 +8,9 @@ body::-webkit-scrollbar {
   width: 0 !important;
   display: none; 
 }
- body{
+body{
+  margin: 0 auto;
   max-width: 1920px !important;
 
   
 } 
-.container{
-  /* max-width: 1000px;
-  margin: 0 auto; */
-}
